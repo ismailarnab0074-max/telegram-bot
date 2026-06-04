@@ -21,8 +21,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # ─── Config ─────────────────────────────────────────────────────────────────
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-ADMIN_IDS_RAW = os.environ.get("ADMIN_TELEGRAM_IDS", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN"8666514015:AAGxGAB5nuYEG4ckBCAgX3TcHkuZE2gTfZw "")
+ADMIN_IDS_RAW = os.environ.get("ADMIN_TELEGRAM_IDS"792556370, "")
 ADMIN_IDS = set(int(x.strip()) for x in ADMIN_IDS_RAW.split(",") if x.strip().isdigit())
 DB_PATH = os.path.join(os.path.dirname(__file__), "bot_data.db")
 
